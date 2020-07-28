@@ -33,8 +33,8 @@ searchzone = "1"
 if DEBUG:Log('Search Zone: %s %s' % (searchzone,str(preference['searchtype'])))
 
 # URLS
-ADE_BASEURL = 'https://www.dvderotik.com'
-ADE_SEARCH_MOVIES = ADE_BASEURL + '/catalog/search.php/language/en?keywords=%s&zone=' + searchzone
+ADE_BASEURL = 'https://erotik.com/en'
+ADE_SEARCH_MOVIES = ADE_BASEURL + '/search?q=%s'
 ADE_MOVIE_INFO = ADE_BASEURL + '/catalog/product_info.php/products_id/%s/language/en'
 
 scoreprefs = int(preference['goodscore'].strip())
